@@ -1,0 +1,32 @@
+.home_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: solid 1px black;
+}
+
+.Home_Title {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border: solid 1px black;
+}
+
+.Home_Title h1 {
+    font-family: 'roboto', sans-serif;
+    font-size: 2vw;
+    color: #333;
+    width: 100%;
+}
+
+.Home_Products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+    border: solid 1px black;
+}
