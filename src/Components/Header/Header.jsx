@@ -42,6 +42,7 @@ function Header() {
           </div>
         </div>
       </div>
+
       <div className="Categories_Container">
         <div className="Categorie">
           <a href="/category/1">Categoria 1</a>
@@ -82,6 +83,7 @@ function Header() {
           </div>
         </div>
       </div>
+      
     </header>
   );
 }
